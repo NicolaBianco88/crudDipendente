@@ -14,7 +14,7 @@ public class DipendenteService {
     @Autowired
     DipendenteRepository dipendenteRepository;
 
-    public List<Dipendente> findAllDipendente(){
+    public List<Dipendente> getAllDipendente(){
         return dipendenteRepository.findAll();
     }
 
